@@ -20,13 +20,13 @@ $totalProductos = count($productos);
 
 <div class="col-lg-3 col-xs-6">
 
-  <div class="small-box bg-aqua">
+  <div class="small-box bg-green">
     
     <div class="inner">
       
-      <h3>$<?php echo number_format($ventas["total"],2); ?></h3>
+      <h3><?php echo number_format($ventas["total"],2); ?> KG</h3>
 
-      <p>Ventas</p>
+      <p>Recolección</p>
     
     </div>
     
